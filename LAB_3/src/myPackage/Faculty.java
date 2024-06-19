@@ -1,4 +1,4 @@
-package okanATAHAN;
+package myPackage;
 
 public class Faculty {
     public static void whichFaculty(String name){

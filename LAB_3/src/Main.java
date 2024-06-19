@@ -1,5 +1,5 @@
-import okanATAHAN.Student;
-import okanATAHAN.Faculty;
+import myPackage.Student;
+import myPackage.Faculty;
 import java.util.Scanner;
 
 public class Main {

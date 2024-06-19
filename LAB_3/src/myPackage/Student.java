@@ -1,4 +1,4 @@
-package okanATAHAN;
+package myPackage;
 
 public class Student {
     private static long studentID;
