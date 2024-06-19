@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="switchList">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="5" right="10"/>
+    <constraints>
+      <xy x="6" y="20" width="1638" height="903"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ce7e5" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="From JList to Another JList"/>
+        </properties>
+      </component>
+      <hspacer id="ad680">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="5" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="402b0" class="javax.swing.JTextField" binding="CourseInput">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fb30c" class="javax.swing.JButton" binding="AddButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ADD to LIST"/>
+        </properties>
+      </component>
+      <component id="2f551" class="javax.swing.JButton" binding="RemoveButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="REMOVE from LIST"/>
+        </properties>
+      </component>
+      <component id="f71b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1769472"/>
+          <text value="ENTER COURSE: "/>
+        </properties>
+      </component>
+      <component id="4d49f" class="javax.swing.JList" binding="AddList">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12641537"/>
+          <font size="12" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="b24b3" class="javax.swing.JList" binding="RemoveList">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-329448"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
